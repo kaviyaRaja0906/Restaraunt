@@ -1,0 +1,748 @@
+*{
+    background-color: #000;
+    color: #ffffff;
+}
+.Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    z-index: 999;
+    width: 100%;
+}
+.list{
+    display: flex;
+    gap: 50px;
+   list-style-type: none;
+   margin-left: 25%;
+}
+.menu-item{
+    color: #878787;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.menu-item:hover{
+    color: #85B50C;
+    text-decoration: none!important;
+    text-underline-offset: 5px!important;
+}
+.active{
+    color: #85B50C!important;
+    text-decoration: underline;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    text-underline-offset: 5px;
+    font-weight: 600;
+}
+.active:hover{
+    text-decoration: none;
+}
+.logo{
+    margin-right: 20px;
+    width: 150px;
+}
+.main-h{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    margin-top:35%;
+}
+.offer-img{
+    width: 85px;
+}
+.dis-con{
+    font-size: 1rem;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    justify-content: center;
+    margin-top: 3%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.highlight{
+    color: #85B50C;
+}
+.main-img{
+    width: 100%;
+}
+.contact{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 80%;
+    padding: 3px;
+}
+.contact-mobile{
+    display: none;
+}
+.phone-input{
+    background-color: #fff;
+    color: #b2b2b2;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin-left: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.phone-input:focus{
+    border: 2px solid #fff;
+    outline: none!important;
+}
+.send-btn{
+    background-color: #85B50C;
+    border: 2px solid #85B50C;
+    border-radius: 30px;
+    padding: 5px;
+    width: 140px;
+    height: 40px;
+}
+.divider{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.divide-img{
+    width: 150px;
+}
+.heading{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+.sub-heading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.dishes{
+    text-align: center;
+}
+.recipes{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.recipe-img{
+    width: 300px;
+}
+.recipe-img2{
+    width: 305px;
+}
+.recipe-h{
+    font-family: 'Sacramento', cursive;
+    font-size: 1.8rem; 
+}
+.test-link{
+    color: #85B50C;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.test-link:hover{
+    color: #c9eb3f;
+}
+.platter-img{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.production{
+    text-align: center;
+}
+.variety{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 50px;
+}
+.variety-div{
+    border: 8px solid #3e3c3e;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.fish-img{
+    border-radius: 20px;
+}
+.about{
+    text-align: center;
+}
+.about-section{
+    margin-top: 5%;
+    display: flex;
+}
+.about-img{
+    width: 100%;
+}
+.quote{
+    width: 60px;
+}
+.about-con{
+    text-align: left;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about-con p{
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.contact-us{
+    text-align: center;
+    justify-content: center;
+}
+.contact-h{
+    width: 60%;
+    margin: auto;
+}
+.contact-mobile-2{
+    display: none;
+}
+.contact-div{
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.number-input{
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 60%;
+    margin-left: 7%;
+    font-weight: 600;
+    color: #878787;
+}
+.number-input:focus{
+    border: 2px solid #fff;
+    outline: none!important;
+}
+.form-input{
+    display: flex;
+}
+.form-img{
+    background: transparent;
+    width: 150px;
+    position: absolute;
+    left: 30%;
+}
+.form-img-2{
+    background: transparent;
+    width: 100px;
+    position: absolute;
+   left: 966px;
+   margin-top: 2%;
+}
+footer{ 
+    margin-top: 5%;
+}
+.foot-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-div{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+}
+i{
+    color: #000;
+    background-color: #fff;
+}
+.foot-img{
+    width: 200px;
+    float: left;
+}
+.foot-img-2{
+    width: 200px;
+    float: right;
+}
+.thank{
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .logo{
+      width: 150px;
+    }
+    .list{
+        margin-left: 0%;
+    }
+    .main{
+      text-align: center;
+      padding-bottom: 10%;
+    }
+    .main-h{
+      font-size: 3rem;
+      margin-top: 5%;
+    }
+    .offer-img{
+        width: 50px;
+    }
+    .dis-con{
+      text-align: left;
+      margin: auto;
+      font-size: 0.9rem;
+    }
+    .contact{
+      display: none;
+    }
+    .contact-mobile{
+      display: inline-block;
+      width: 100%;
+  }
+  .phone-input-m{
+      background-color: #fff;
+      border: 2px solid #fff;
+      width: 80%;
+      margin-bottom: 5%;
+      border-radius: 30px;
+      padding: 10px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 1px;
+  }
+  .send-btn-m{
+      background-color: #85B50C;
+      border: 2px solid #85B50C;
+      border-radius: 30px;
+      padding: 10px;
+      width: 60%;
+  }
+    .divider{
+      padding-bottom: 10%;
+    }
+    .divide-img{
+      width: 100px;
+    }
+    .heading{
+      font-size: 3rem;
+    }
+    .recipes{
+        margin-top: 10%;
+    }
+    .recipe-img{
+        width: 240px;
+    }
+    .recipe-img2{
+        width: 250px;
+    }    
+    .production{
+      padding-bottom: 15%;
+    }
+    .fish{
+      padding-top: 15%;
+    }
+    .fish-img{
+        width: 180px;
+    }
+    .about{
+      padding-bottom: 15%;
+    }
+    .about-img{
+        height: 65vh;
+        width: 120%;
+        margin-top: 15%;
+    }
+    .contact-h{
+      width: 100%;
+      font-size: 2.5rem;
+    }
+    .contact-us{
+      padding-bottom: 15%;
+    }
+    .contact-div, .form-img, .form-img-2{
+      display: none;
+    }
+    .contact-mobile-2{
+      display:block;
+      text-align: center;
+      width: 100%;
+    }
+    .number-input-m{
+      background-color: #fff;
+      border: 2px solid #fff;
+      width: 60%;
+      border-radius: 30px;
+      padding: 4px;
+      margin: auto;
+      margin-bottom: 5%;
+      margin-top: 4%;
+      text-align: center;
+    }
+    .contact-div-m{
+      width: 100%;
+    }
+    .form-img-m{
+      width:95px;
+      background: transparent;
+      position: absolute;
+      left: 155px;
+    }
+    .form-img-2m{
+      width: 90px;
+      background: transparent;
+      position: absolute;
+      left: 602px;
+    }
+    .foot-img{
+      width: 150px;
+    }
+    .foot-img-2{
+      width: 150px;
+    }
+    .thank img{
+      width: 100%;
+    }
+    footer{
+      justify-content: center;
+  }
+  .foot-list{
+   flex-wrap: nowrap;
+   font-size: 1rem;
+   justify-content: center;
+   text-align: center;
+   margin-left: 0%;
+   margin-right: 5%;
+  }
+  
+  }
+@media screen and (max-width:767px) {
+  .Navbar{
+    text-align: center;
+  }
+    .list{
+    display: none;
+  }
+  .logo{
+    width: 200px;
+    justify-content: center;
+    margin: auto;
+  }
+  .main{
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .main-h{
+    font-size: 3rem;
+    margin-top: 5%;
+  }
+  .offer-img{
+    display: none;
+  }
+  .dis-con{
+    text-align: center;
+    margin: auto;
+  }
+  .contact{
+    display: none;
+  }
+  .contact-mobile{
+    display: inline-block;
+    width: 100%;
+}
+.phone-input-m{
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 80%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.send-btn-m{
+    background-color: #85B50C;
+    border: 2px solid #85B50C;
+    border-radius: 30px;
+    padding: 10px;
+    width: 80%;
+}
+  .divider{
+    padding-bottom: 10%;
+  }
+  .divide-img{
+    width: 100px;
+  }
+  .heading{
+    font-size: 3rem;
+  }
+  .recipes{
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+  .recipe{
+    margin-bottom: 15%;
+  }
+  .production{
+    padding-bottom: 15%;
+  }
+  .fish{
+    padding-top: 15%;
+  }
+  .about{
+    padding-bottom: 15%;
+  }
+  .contact-h{
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .contact-us{
+    padding-bottom: 15%;
+  }
+  .contact-div, .form-img, .form-img-2{
+    display: none;
+  }
+  .contact-mobile-2{
+    display:block;
+    text-align: center;
+    width: 100%;
+  }
+  .number-input-m{
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 80%;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    text-align: center;
+  }
+  .contact-div-m{
+    width: 100%;
+  }
+  .form-img-m{
+    width:90px;
+    background: transparent;
+    position: absolute;
+    left: 1%;
+  }
+  .form-img-2m{
+    width: 90px;
+    background: transparent;
+    position: absolute;
+    left: 325px;
+  }
+  .foot-img{
+    width: 150px;
+  }
+  .foot-img-2{
+    width: 150px;
+  }
+  .thank img{
+    width: 100%;
+  }
+  footer{
+    justify-content: center;
+}
+.foot-list{
+ flex-wrap: nowrap;
+ font-size: 1rem;
+ justify-content: center;
+ text-align: center;
+ margin-left: 0%;
+ margin-right: 5%;
+}
+
+}
+@media screen and (min-width:375px) and (max-width:390px){
+    .number-input-m{
+     margin-top: 8%;
+    }
+    .form-img-2m{
+        width: 65px;
+        background: transparent;
+        position: absolute;
+        left: 315px!important;
+        margin-top: 5%;
+      }
+}
+@media screen and (min-width:320px) and (max-width:360px){
+    .Navbar{
+      text-align: center;
+    }
+      .list{
+      display: none;
+    }
+    .logo{
+      width: 150px;
+      justify-content: center;
+      margin: auto;
+    }
+    .main{
+      text-align: center;
+      padding-bottom: 10%;
+    }
+    .main-h{
+      font-size: 2.5rem;
+      margin-top: 5%;
+    }
+    .offer-img{
+      display: none;
+    }
+    .dis-con{
+      text-align: center;
+      margin: auto;
+    }
+    .contact{
+      display: none;
+    }
+    .contact-mobile{
+      display: inline-block;
+      width: 100%;
+  }
+  .phone-input-m{
+      background-color: #fff;
+      border: 2px solid #fff;
+      width: 80%;
+      margin-bottom: 5%;
+      border-radius: 30px;
+      padding: 8px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: 1px;
+  }
+  .send-btn-m{
+      background-color: #85B50C;
+      border: 2px solid #85B50C;
+      border-radius: 30px;
+      padding: 8px;
+      width: 80%;
+  }
+    .divider{
+      padding-bottom: 10%;
+    }
+    .divide-img{
+      width: 100px;
+    }
+    .heading{
+      font-size: 2.5rem;
+    }
+    .recipes{
+      margin-bottom: 5%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .recipe{
+      margin: auto;
+      margin-bottom: 15%;
+      text-align: center;
+    }
+    .recipe-img{
+        width: 100%;
+    }
+    .recipe-img2{
+        width: 100%;
+    }
+    .recipe-h{
+        font-size: 1.5rem;
+    }
+    .recipe p{
+        font-size: 0.8rem;
+    }
+    .production{
+      padding-bottom: 15%;
+    }
+    .fish{
+      padding-top: 15%;
+    }
+    .about{
+      padding-bottom: 15%;
+    }
+    .contact-h{
+      width: 100%;
+      font-size: 2.5rem;
+    }
+    .contact-us{
+      padding-bottom: 15%;
+    }
+    .contact-div, .form-img, .form-img-2{
+      display: none;
+    }
+    .contact-mobile-2{
+      display:block;
+      text-align: center;
+      width: 100%;
+    }
+    .number-input-m{
+      background-color: #fff;
+      border: 2px solid #fff;
+      width: 80%;
+      border-radius: 30px;
+      padding: 5px;
+      margin: auto;
+      margin-bottom: 5%;
+      margin-top: 7%;
+      text-align: center;
+    }
+    .contact-div-m{
+      width: 100%;
+    }
+    .form-img-m{
+      width:80px;
+      background: transparent;
+      position: absolute;
+      left: 0%;
+    }
+    .form-img-2m{
+      width: 55px;
+      background: transparent;
+      position: absolute;
+      left: 268px;
+      margin-top: 3%;
+    }
+    .foot-img{
+      width: 150px;
+    }
+    .foot-img-2{
+      width: 150px;
+    }
+    .thank img{
+      width: 100%;
+    }
+    footer{
+        justify-content: center;
+    }
+    .foot-list{
+     flex-wrap: nowrap;
+     font-size: 0.9rem;
+     justify-content: left;
+     text-align: center;
+     margin-left: 2%;
+    }
+
+  }
